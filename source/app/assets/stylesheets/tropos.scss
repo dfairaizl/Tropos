@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+
+
+  body {
+    background-color: rgb(66, 115, 161);
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+
+
+    .container-fluid {
+      padding-top: 15px;
+    }
+
+     h1.title {
+      color: #F3F3F3;
+      font-size: 52px;
+      font-weight: 100;
+      text-align: center;
+    }
+
+    .icon {
+      .icon-holder {
+        margin: 40px auto 0px;
+        width: 120px;
+        height: 120px;
+        background-color: #F3F3F3;
+        border-radius: 80px;
+
+        i.wi {
+          width: inherit;
+          margin: 35px auto;
+          font-size: 60px;
+          color: rgb(66, 115, 161);
+          text-align: center;
+
+          -moz-transition: all 1s ease-in;
+          -o-transition: all 1s ease-in;
+          -webkit-transition: all 1s ease-in;
+          transition: all 1s ease-in;
+        }
+      }
+    }
+
+    .temp {
+      margin-bottom: 100px;
+
+      h1.temperature {
+        max-height: 220px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 220px;
+        font-weight: 100;
+        text-align: center;
+        color: #F3F3F3;
+
+        .degree {
+          top: -1.5em;
+          font-size: 35%;
+        }
+      }
+
+      h3.location {
+        font-weight: 200;
+        text-align: center;
+        color: #F3F3F3;
+      }
+    }
+
+
+    .time-day {
+      h3.time {
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 15px;
+        font-weight: 200;
+        text-align: center;
+        color: #F3F3F3;
+        border-bottom: 1px solid #F3F3F3;
+      }
+
+      .week-day {
+        max-width: 350px;
+        margin: 20px auto;
+
+        .day {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+          padding: 0px;
+
+          h4 {
+            color: #F3F3F3;
+            max-width: 40px;
+            text-align: center;
+          }
+
+          &.today {
+            background-color: #F3F3F3;
+            opacity: 0.7;
+            border-radius: 40px;
+
+            h4 {
+              color: #222;
+            }
+          }
+
+          &:last-child {
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
